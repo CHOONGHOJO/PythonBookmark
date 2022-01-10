@@ -3,8 +3,8 @@ from django.db import models
 # Create your models here.
 # 모델 : 데이타베이스를 SQL없이 다루려고 사용
 # 데이타를 객체화해서 다룬다.
-# 모델 : 테이블
-# 모델의 필드 : 데이타의 컬럼
+# 모델 = 테이블
+# 모델의 필드 = 데이타의 컬럼
 # 인스턴스 : 테이블의 레코드
 # 필드의 값(인스턴스의 필드값) = 레코드컬럼 데이타값
 class Bookmark(models.Model):
