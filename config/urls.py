@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    # 1차 -> http://127.0.0.1/bookmark/?
-    # 2차 -> http://127.0.0.1/중앙창구/외과
-    # 3차 -> http://127.0.0.1/중앙창구/내과
+    # 1차 -> http://127.0.0.1/bookmark/
+    # 2차 -> http://127.0.0.1/bookmark/?
+    # 1차 -> http://127.0.0.1/중앙창구/
+    # 2차 -> http://127.0.0.1/중앙창구/내과
     path('bookmark/', include('bookmark.urls')),
     path('admin/', admin.site.urls),
 ]
